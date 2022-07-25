@@ -15,7 +15,7 @@ const NewItem = () => {
     setPreço('R$','')
     
   } 
-  return(
+  return (
     <form onSubmit={handleChange}>
       <input type='text' value={name} required ref={inputElement} onChange={(e) => setName(e.target.value)}
       placeholder='Coloque seu item'></input>
@@ -23,6 +23,6 @@ const NewItem = () => {
       placeholder='Adicione seu preço'></input>
       <input type='submit' value='Adicionar'></input>
     </form>
-  )
+ )
 }
 export default NewItem
