@@ -8,7 +8,6 @@ const ItenList= () => {
    <div className= 'item-list'>
     <ul>
       <ItenDetails itens={itens}/>
-        )
     </ul>
 
     </div>
