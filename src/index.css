@@ -1,23 +1,23 @@
 body {
-  margin: 0;
+  margin: 100px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smooth: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #553055;
 }
 .App{
   background:#4c2a4c;
-  margin: 20px auto;
+  margin: 40px auto;
   width: 90%;
   max-width: 700px;
-  color: #eee
+  color: #eee;
 }
 
 .navbar{
-  padding:10px 20px ;
-  text-align:center;
+  padding: 10px 20px;
+  text-align: center;
   background:#6d3d6d;
   color: #eee;
 }
@@ -33,6 +33,7 @@ body {
 .item-list ul {
   padding:0;
   list-style-type:none;
+  
 }
 
 .item-list li {
@@ -41,6 +42,7 @@ body {
   padding: 10px;
   cursor: pointer;
   margin: 10px 0;
+  text-align: center;
 }
 
 .item-list li:hover {

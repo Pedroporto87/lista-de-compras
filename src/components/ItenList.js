@@ -17,5 +17,5 @@ const ItenList= () => {
       <p>Sem items para comprar, dinheiro no bolso!!</p>
     </div>
    )
-  }
+ } 
 export default ItenList
